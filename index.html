@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>San Joaquin Valley Town Hall</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="styles/slicknav.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({pretendTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+<body>
+<header class="header">
+    <img src="css/townhalllogo.gif" alt="town hall logo" height="80">
+    <h2>San Joaquin Valley Town Hall</h2>
+    <h3>Celebrating our <em class="shadow">75<sup>th</sup></em> Year</h3>
+</header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="luncheons.html">Luncheons</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="aboutus.html">About Us</a>
+        <ul>
+            <li><a href="#">Our History</a></li>
+            <li><a href="#">Board of Directors</a></li>
+            <li><a href="#">Past Speakers</a></li>
+            <li><a href="#">Contact Information</a></li>
+        </ul>
+        </li>
+    </ul>
+</nav>
+<main>
+    <section>
+        <h2>Our mission</h2>
+        <p>San Joaquin Valley Town Hall is a non-profit organization that is run by an all-volunteer broad of directors. Our mission is to bring
+        nationally and internationally renowed, thought-provoking speakers who inform, educate, and 
+        entertain our audience! As one of our members told us:</p>
+        <blockquote>"Each year I give a ticket package to each of our family members. I think of it as the gift of knowledge... and that is priceless"</blockquote>
+            
+        <h1>Speaker of the Month</h1>
+        <article>
+            <h2>Fossil Threads in the Web of Life</h2>
+            <img src="css/sampson_dinosaur.jpg" alt="Sampson with a dinosaur">
+            <h3>February<br>Scott Sampson</h3>
+            <p>What's 75 million years old and brand spanking new? A teenage Utahceratops!
+                Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, 
+                Research Curator at the Utah Museum of Natural History, steps to the podium. 
+                Sampson's research has focused on the ecology and evolution of the ecology and 
+                evolution of late Cretaceous dinosaurs and he has conducted fieldwork in a number of countries in Africa.
+            </p>
+            <p><br><a href="readmore.html"><b>Read More.</b></a>&nbsp;
+                <a href="media/sampson.mp4" target="_blank"><b>Or play video.</b></a>
+        </article>
+        
+        <h2>Our Ticket Packages</h2>
+            <ul>
+                <li>Season Package: $95</li>
+                <li>Patron Package: $200</li>
+                <li>Single Speaker: $25</li>
+            </ul>
+    </section>
+    <aside>
+        <h2 id="speakers">Guest speakers</h1>
+        <h3>October<br><a href="speakers/brancaccio.html">David Brancaccio</a></h3>
+            <img src="css/BrancaccioDavid.avif" alt="David Brancaccio" height="75">
+        <h3>November<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h3>
+            <img src="css/AndrewSorkin.jpg" alt="Andrew Ross Sorkin" height="85">
+        <h3>January<br><a href="speakers/chua.html">Amy Chua</a></h3>
+            <img src="css/AmyChua.jpg" alt="Amy Chua" height="82">
+        <h3>February<br><a href="speakers/sampson.html">Scott Sampson</a></h3>
+            <img src="css/scottsampson.jpg" alt="Scott Sampson" height="80">
+    </aside>
+</main>
+    <footer>
+        <p>&copy; Valeria Heredia, 2024</p>
+    </footer>
+</body>
+</html>
